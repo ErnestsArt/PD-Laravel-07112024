@@ -2,7 +2,7 @@
     <h1>All posts</h1>
     <a href="/posts/create">Create post</a>
     <ul>
-        @foreach($allPosts as $post)
+        @foreach($Allposts as $post)
             <li>
                 <h2>Title: {{ $post->title }}</h2>
                 <p>Content: {{ $post->content }}</p>
